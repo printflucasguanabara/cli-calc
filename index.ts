@@ -14,7 +14,7 @@ const answer = await inquirer.prompt([
     {
         type: 'list',
         name: 'operator',
-        message: 'Selecione o operador que vocE qr',
+        message: 'Selecione a opção abaixo',
         choices: ['Soma', 'Subtrair', 'Multiplicar', 'Dividir']
     }
 ]);
